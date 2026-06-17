@@ -1,0 +1,7 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "Start-Process": true,
+        "Parse-ExamFile2": true,
+        "Build-Markdown": true
+    }
+}
