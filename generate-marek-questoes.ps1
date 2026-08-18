@@ -191,7 +191,7 @@ function Build-QuizJson($questions) {
 
 # Update HTML
 Write-Host "`n=== Atualizando HTML ==="
-$htmlPath = "$base\estudo.html"
+$htmlPath = "$base\index.html"
 $html = [System.IO.File]::ReadAllText($htmlPath, [System.Text.Encoding]::UTF8)
 
 # Remove previously added nav/articles (idempotent)
@@ -210,7 +210,7 @@ foreach ($dk in $domainConfig.Keys) {
         $navItems07 += "`r`n<li><a href=`"#`" onclick=`"showTopic('$topicId');return false`" id=`"nav-07-marek-simulado-$dk-$part`">$navLabel</a></li>"
     }
 }
-$group07 = "`r`n`r`n    <div class=`"domain-group`" data-domain=`"07-Questao-Marek`">`r`n      <div class=`"domain-header`" onclick=`"toggleDomain('07-Questao-Marek')`" style=`"--dc:#f59e0b`">`r`n        <span class=`"d-icon`">🎯</span>`r`n        <span class=`"d-label`">07-Questao Marek</span>`r`n        <span class=`"d-chevron`">▾</span>`r`n      </div>`r`n      <ul class=`"topic-list`" id=`"list-07-Questao-Marek`">$navItems07`r`n</ul></div>"
+$group07 = "`r`n`r`n    <div class=`"domain-group`" data-domain=`"07-Questao-Marek`">`r`n      <div class=`"domain-header`" onclick=`"toggleDomain('07-Questao-Marek')`" style=`"--dc:#f59e0b`">`r`n        <span class=`"d-icon`">🎯</span>`r`n        <span class=`"d-label`">Questões Avançadas</span>`r`n        <span class=`"d-chevron`">▾</span>`r`n      </div>`r`n      <ul class=`"topic-list`" id=`"list-07-Questao-Marek`">$navItems07`r`n</ul></div>"
 
 # Insert group 07 after group 06 (position-based)
 $g06start = $html.IndexOf('<div class="domain-group" data-domain="06-Questao-por-dominio">')

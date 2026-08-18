@@ -110,8 +110,9 @@ A resposta correta é C: AWS Serverless Application Model (AWS SAM). Aqui está 
 ## Q42
 
 [ENUNCIADO]
-Uma equipe de desenvolvimento deseja construir um pipeline de integração/entrega contínua (CI/CD). A equipe está usando AWS CodePipeline para automatizar a construção e implantação de código. A equipe deseja armazenar o código do programa para se preparar para o pipeline de CI/CD. Qual serviço AWS a equipe deve usar para armazenar o código do programa? -AWS CodeDeploy
+Uma equipe de desenvolvimento deseja construir um pipeline de integração/entrega contínua (CI/CD). A equipe está usando AWS CodePipeline para automatizar a construção e implantação de código. A equipe deseja armazenar o código do programa para se preparar para o pipeline de CI/CD. Qual serviço AWS a equipe deve usar para armazenar o código do programa?
 
+[A] AWS CodeDeploy
 [B] AWS CodeArtifact
 [C] AWS CodeCommit
 [D] Amazon CodeGuru

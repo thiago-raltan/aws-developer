@@ -121,7 +121,7 @@ Tabela DynamoDB.
 Qual é a causa MAIS provável deste problema?
 
 - A.O limite de simultaneidade da função Lambda foi excedido.
-- A tabela B.DynamoDB requer um índice secundário global (GSI) para suportar gravações.
+- B.A tabela DynamoDB requer um índice secundário global (GSI) para suportar gravações.
 - C.A função Lambda não tem permissões do IAM para gravar no DynamoDB.
 - D.A tabela DynamoDB não está em execução na mesma zona de disponibilidade que a função Lambda.
 
